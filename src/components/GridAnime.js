@@ -17,7 +17,7 @@ export const GridAnime = ( { anime, limite } ) => {
                 loading && <div className=" d-flex align-items-center justify-content-center"><p className="text-muted">Cargando...</p></div>
             }   
 
-            <div className="">
+            <div className="w-100 d-flex align-items-center justify-content-center flex-wrap">
                 {
                     //gridItem
                     request.map( (objVal) => {
